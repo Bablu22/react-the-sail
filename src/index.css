@@ -1,13 +1,18 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'proxima-nova', sans-serif;
+    src: url(./assets/fonts/proxima-nova-font.otf);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+    font-family: 'Staatliches', cursive;
+    src: url(./assets/fonts/staatliches-regular.ttf);
+}
+
+@font-face {
+    font-family: 'Segoe UI', sans-serif;
+    src: url(./assets/fonts/segoe-ui.ttf);
 }
