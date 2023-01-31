@@ -16,8 +16,8 @@ const Header = ({ navbar }) => {
                     : "fixed top-0 left-0 z-50 w-full bg-white text-header3"
             )}
         >
-            <div className="container items-center justify-between py-4 mx-auto md:flex md:px-10 px-7 ">
-                <div className="font-bold text-2xl cursor-pointer flex items-center font-[Poppins] text-gray-800">
+            <div className="container items-center justify-between py-4 mx-auto md:flex md:px-10 px-7">
+                <div className="font-bold text-2xl cursor-pointer flex items-center font-[Poppins] text-gray-800 ">
                     <Link to="/" className="w-3/6">
                         <img
                             alt="Snowy mountain lake"
@@ -34,7 +34,7 @@ const Header = ({ navbar }) => {
                 </div>
 
                 <ul
-                    className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static  md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${open ? "top-30 h-screen" : "top-[-490px]"
+                    className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static  md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${open ? "top-30 h-screen bg-white" : "top-[-490px]"
                         }`}
                 >
                     {HEADER_NAV_LINKS.map((link) => (
