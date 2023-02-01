@@ -107,7 +107,7 @@ body {
     }
 
     .ml-container {
-        margin: 0 auto;
+        margin-left: calc((100vw - 640px) / 2);
     }
 }
 
@@ -117,7 +117,7 @@ body {
     }
 
     .ml-container {
-        margin: 0 auto;
+        margin-left: calc((100vw - 768px) / 2);
     }
 }
 

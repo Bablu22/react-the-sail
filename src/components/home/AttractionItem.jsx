@@ -6,11 +6,11 @@ const AttractionItem = ({ item }) => {
     const description = item.description
 
     return (
-        <div className="relative top-10 z-[100]  mb-10 w-full lg:pl-10 px-2">
+        <div className="relative top-10 z-[100]  mb-10  lg:pl-10 px-2 lg:px-0">
             <h2 className="lg:ml-container pb-10 text-5xl font-primary ">Top Attractions</h2>
             <div className="">
                 <div
-                    className="object-right h-auto py-24 mr-0 text-white bg-center bg-cover ml-container "
+                    className="object-right h-auto py-24 mr-0 text-white bg-center bg-cover lg:ml-container "
                     style={{ backgroundImage: `url(${item.image})`, height: "600px" }}
                 >
                     <div className="absolute bottom-0 w-10/12 p-10 text-black bg-white md:w-2/5 2xl:w-3/12">

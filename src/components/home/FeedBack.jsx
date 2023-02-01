@@ -42,8 +42,8 @@ const FeedBack = () => {
     return (
         <Fragment>
             <div id="client_feedback">
-                <div className="relative top-20 z-[10]   w-full lg:pl-10 px-2">
-                    <h2 className="ml-container pb-10 text-5xl font-primary">
+                <div className="relative top-20 z-[10]   w-full lg:pl-10 px-2 lg:px-0">
+                    <h2 className="lg:ml-container pb-10 text-5xl font-primary">
                         Client Feedback
                     </h2>
 
