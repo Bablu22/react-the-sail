@@ -10,8 +10,9 @@ const Banner = () => {
         speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,
-    };
 
+    };
+    
     return (
         <Fragment>
             <div>

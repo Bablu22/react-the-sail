@@ -9,7 +9,7 @@ const FeedBack = () => {
         infinite: true,
         speed: 500,
         slidesToShow: 4,
-        slidesToScroll: 1,
+        slidesToScroll: 4,
         responsive: [
             {
                 breakpoint: 1024,
@@ -21,7 +21,7 @@ const FeedBack = () => {
                 }
             },
             {
-                breakpoint: 600,
+                breakpoint: 768,
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 2,
@@ -29,31 +29,30 @@ const FeedBack = () => {
                 }
             },
             {
-                breakpoint: 480,
+                breakpoint: 640,
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1
                 }
             }
         ]
+
     };
 
     return (
         <Fragment>
             <div id="client_feedback">
-                <div className="relative top-20 z-[10]   w-full pl-10">
-                    <h2 className="px-10 pb-10 text-5xl font-primary">Client Feedback</h2>
-                    <div className="">
-                        <div className="mr-0 text-black ml-container">
+                <div className="relative top-20 z-[10]   w-full lg:pl-10 px-2">
+                    <h2 className="ml-container pb-10 text-5xl font-primary">
+                        Client Feedback
+                    </h2>
 
-                            <Slider {...settings}>
-
-                                {CLIENT_FEED_BACK.map((item) => (
-                                    <FeedbackItem key={item.id} item={item} />
-                                ))}
-
-                            </Slider>
-                        </div>
+                    <div className="mr-0 text-black lg:ml-container overflow-hidden">
+                        <Slider {...settings}>
+                            {CLIENT_FEED_BACK.map((item) => (
+                                <FeedbackItem key={item.id} item={item} />
+                            ))}
+                        </Slider>
                     </div>
                 </div>
             </div>

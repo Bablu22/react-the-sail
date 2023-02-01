@@ -7,10 +7,10 @@ import logo from "../assets/images/logo/logo.svg";
 const AttractionDetails = () => {
     const { id } = useParams();
     const destination = TOP_ATTRACTIONS.find((item) => item.id === id);
-    
+
     return (
         <div className="bg-[#F1F5F8]  py-10  relative ">
-            <div className="container grid w-full h-screen grid-cols-12 gap-4 p-1 mx-auto mt-20 bg-white md:w-3/4">
+            <div className="container lg:grid w-full lg:h-screen lg:grid-cols-12 gap-4 p-1 mx-auto mt-20 bg-white lg:w-3/4">
                 <div className="col-span-12 p-5 sm:col-span-8">
                     <img src={destination.image} alt="" />
                     <h2 className="mt-10 text-3xl font-primary text-bold">

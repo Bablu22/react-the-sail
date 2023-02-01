@@ -3,7 +3,7 @@ import React, { Fragment } from "react";
 const FeedbackItem = ({ item }) => {
     return (
         <Fragment>
-            <div className="w-full h-56 max-w-sm overflow-hidden feedback_item ml-28">
+            <div className="h-64 max-w-xl overflow-hidden feedback_item mr-5">
                 <p className="my-4 text-sm ">{item.message}</p>
                 <p>{item.name}</p>
                 <p>{item.degisnation}</p>

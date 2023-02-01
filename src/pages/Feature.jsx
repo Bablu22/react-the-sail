@@ -6,10 +6,10 @@ import { FEATURE_DATA } from "../data/feature";
 const Feature = () => {
     return (
         <div className="bg-[#F1F5F8]  py-10  relative ">
-            <div className="container grid w-full grid-cols-12 gap-4 p-1 mx-auto mt-20 bg-white md:w-3/4">
+            <div className=" lg:grid grid-cols-12 gap-4 container mt-16  p-5 mx-auto md:mt-28 lg:mt-20 bg-white md:p-20 lg:w-3/4 w-11/12">
                 <div className="col-span-12 p-5 sm:col-span-8">
                     {FEATURE_DATA.map((item) => (
-                        <div key={item.id} className="flex justify-between mb-20 space-x-20">
+                        <div key={item.id} className="lg:flex justify-between mb-20 lg:space-x-20">
                             <h2 className="text-3xl font-primary">Safety</h2>
                             <p>
                                 Safety coupled with comfort was our prime concern from the very

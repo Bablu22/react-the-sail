@@ -35,7 +35,28 @@ export const CLIENT_FEED_BACK = [
         degisnation: "USA",
     },
     {
-        id: 343437774434,
+        id: 5333333333333333,
+        message:
+            "I loved everything about my trip. The food, the organization, and the incredible hardwork and the kindness of the entire crew were extraordinary. Thank you so much for a trip that I'll always remember.",
+        name: "Kelsea Best",
+        degisnation: "USA",
+    },
+    {
+        id: 544657557347455465465656,
+        message:
+            "I loved everything about my trip. The food, the organization, and the incredible hardwork and the kindness of the entire crew were extraordinary. Thank you so much for a trip that I'll always remember.",
+        name: "Kelsea Best",
+        degisnation: "USA",
+    },
+    {
+        id: 343437774656565656565434,
+        message:
+            "I loved everything about my trip. The food, the organization, and the incredible hardwork and the kindness of the entire crew were extraordinary. Thank you so much for a trip that I'll always remember.",
+        name: "Kelsea Best",
+        degisnation: "USA",
+    },
+    {
+        id: 343437774444444444442222222242211114434,
         message:
             "I loved everything about my trip. The food, the organization, and the incredible hardwork and the kindness of the entire crew were extraordinary. Thank you so much for a trip that I'll always remember.",
         name: "Kelsea Best",

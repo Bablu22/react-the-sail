@@ -13,8 +13,8 @@ const ChooseUs = () => {
             </div>
 
             <div className="container px-10 mx-auto">
-                <div className="justify-between md:flex md:space-x-28 ">
-                    <div className="flex flex-col md:w-1/4">
+                <div className="justify-between flex flex-col-reverse lg:flex-row lg:space-x-28 ">
+                    <div className="flex flex-col lg:w-1/4 md:w-2/4 mx-auto w-full">
                         <div className="justify-between p-2 px-5 mb-6 bg-gradient-to-r via-header1 from-header1 to-header3 sm:flex sm:justify-start">
                             <img src={imaeg1} alt="choose" className="w-16 rounded-lg " />
                             <div className="flex items-center justify-between w-full sm:ml-4">
@@ -40,7 +40,7 @@ const ChooseUs = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="w-full text-center md:text-right md:w-1/3">
+                    <div className="w-full text-center lg:text-right lg:w-1/3 pb-10">
                         <h2 className="pb-8 text-5xl font-primary">WHY CHOOSE US?</h2>
                         <p>
                             “The Sail” is a hundred and twenty feet long, and twenty three

@@ -4,16 +4,27 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: white;
+}
+
+
 /* Banner Slider Home*/
 .slick-arrow {
     display: none !important;
 }
 
+.slick-slide {
+    margin-right: 0px !important;
+}
+
 /* Feedbak section */
 .feedback_item {
     background: linear-gradient(to top, #0099d2, #d2f3ff);
-    padding: 30px 25px
+    padding: 30px 35px;
+    margin-bottom: 100px;
 }
+
 
 /* Footer */
 #footer {
@@ -96,7 +107,7 @@
     }
 
     .ml-container {
-        margin-left: calc((100vw - 640px) / 2);
+        margin: 0 auto;
     }
 }
 
@@ -106,7 +117,7 @@
     }
 
     .ml-container {
-        margin-left: calc((100vw - 768px) / 2);
+        margin: 0 auto;
     }
 }
 

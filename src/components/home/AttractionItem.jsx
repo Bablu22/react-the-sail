@@ -6,8 +6,8 @@ const AttractionItem = ({ item }) => {
     const description = item.description
 
     return (
-        <div className="relative top-10 z-[100]  mb-10 w-full pl-10">
-            <h2 className="px-10 pb-10 text-5xl font-primary">Top Attractions</h2>
+        <div className="relative top-10 z-[100]  mb-10 w-full lg:pl-10 px-2">
+            <h2 className="lg:ml-container pb-10 text-5xl font-primary ">Top Attractions</h2>
             <div className="">
                 <div
                     className="object-right h-auto py-24 mr-0 text-white bg-center bg-cover ml-container "

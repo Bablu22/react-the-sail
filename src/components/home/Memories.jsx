@@ -6,8 +6,8 @@ const Memories = () => {
     return (
         <Fragment>
             <div id="mb-96">
-                <div className="relative top-20 z-[10]   w-full pl-10">
-                    <h2 className="pb-10 text-5xl text-center uppercase font-primary">
+                <div className="relative top-20 z-[10]   w-full lg:pl-10 px-2">
+                    <h2 className="lg:ml-container text-5xl pb-10 uppercase font-primary">
                         some memories
                     </h2>
                     <div className="">

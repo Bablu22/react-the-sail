@@ -11,7 +11,7 @@ const BannerItem = ({ item }) => {
                     style={{ backgroundImage: `url(${item.image})`, height: "700px" }}
                 >
                     <div className="container px-10 mx-auto">
-                        <div className="absolute w-10/12 p-10 text-black bg-white md:w-2/5 2xl:w-3/12 md:top-1/4">
+                        <div className="absolute w-10/12 p-10 text-black bg-white lg:w-2/5 2xl:w-3/12 md:top-1/4">
                             <p className="pb-5 text-sm">{item.subHeading}</p>
                             <Link to="/tour-itinerary">
                                 <p className="pb-5 text-xl uppercase md:text-4xl font-primary text-sail">

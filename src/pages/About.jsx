@@ -3,7 +3,7 @@ import React from "react";
 const About = () => {
     return (
         <div className="bg-[#F1F5F8]  py-10">
-            <div className="container w-full p-5 mx-auto mt-20 bg-white md:p-20 md:w-3/4">
+            <div className="container mt-16  p-5 mx-auto md:mt-28 lg:mt-20 bg-white md:p-20 lg:w-3/4 w-11/12">
                 <p>
                     It was a beautiful evening of early February, and we had just
                     completed a tour of the Sundarbans. It was simply an amazing
