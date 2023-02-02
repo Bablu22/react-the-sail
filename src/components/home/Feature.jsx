@@ -6,10 +6,10 @@ const Feature = () => {
     return (
         <Fragment>
             <div className="container mx-auto my-20">
-                <div className="items-center justify-between lg:space-x-10 space-y-8 flex flex-col-reverse lg:flex-row">
+                <div className="flex flex-col-reverse items-center justify-between space-y-8 lg:space-x-10 lg:flex-row">
                     <div className="">
-                        <div className="md:flex justify-between items-center lg:block  px-2 lg:px-10">
-                            <h1 className="mb-8 text-5xl  md:w-9/12 w-full lg:w-full leading-tight font-primary text-header1">
+                        <div className="items-center justify-between px-2 md:flex lg:block lg:px-10">
+                            <h1 className="w-full mb-8 text-5xl leading-tight md:w-9/12 lg:w-full font-primary text-header1">
                                 <span className="text-sail">Sundarbans,</span> <br /> The
                                 Largest Mangrove Forest In the World
                             </h1>

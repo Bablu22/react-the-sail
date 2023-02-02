@@ -9,9 +9,9 @@ import image7 from "../../assets/images/home/payment/visa.svg"
 
 const PaymentMethod = () => {
     return (
-        <div className="container px-10 mx-auto mt-48 mb-20">
-            <div className="lg:space-x-48 lg:flex">
-                <h2 className="lg:px-10 text-3xl font-primary pb-5">payment methods</h2>
+        <div className="px-2 mx-auto mt-48 mb-20 lg:px-0 ml-container">
+            <div className="lg:space-x-20 lg:flex">
+                <h2 className="pb-5 text-3xl lg:px-10 font-primary">payment methods</h2>
                 <div className="flex flex-wrap justify-between space-y-2 md:space-y-0 md:space-x-3 md:flex-nowrap">
                     <img src={image1} alt="" className="w-24 md:w-full" />
                     <img src={image2} alt="" className="w-24 md:w-full" />

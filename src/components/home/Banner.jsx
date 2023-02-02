@@ -12,7 +12,7 @@ const Banner = () => {
         slidesToScroll: 1,
 
     };
-    
+
     return (
         <Fragment>
             <div>

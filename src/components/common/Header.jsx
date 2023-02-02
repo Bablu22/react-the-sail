@@ -40,7 +40,7 @@ const Header = ({ navbar }) => {
                     {HEADER_NAV_LINKS.map((link) => (
                         <li
                             key={link.key}
-                            className={`${navbar ? "" : ""}text-sm font-medium   lg:ml-8 lg:my-0 my-7 font-secondary `}
+                            className={`${navbar ? "" : ""}text-sm font-medium   lg:ml-5  lg:my-0 my-7 font-secondary `}
                         >
                             <Link
                                 to={link.path}

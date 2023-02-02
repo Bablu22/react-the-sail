@@ -7,7 +7,7 @@ const AttractionItem = ({ item }) => {
 
     return (
         <div className="relative top-10 z-[100]  mb-10  lg:pl-10 px-2 lg:px-0">
-            <h2 className="lg:ml-container pb-10 text-5xl font-primary ">Top Attractions</h2>
+            <h2 className="pb-10 text-5xl lg:ml-container font-primary ">Top Attractions</h2>
             <div className="">
                 <div
                     className="object-right h-auto py-24 mr-0 text-white bg-center bg-cover lg:ml-container "

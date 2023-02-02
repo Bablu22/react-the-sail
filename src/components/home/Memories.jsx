@@ -7,7 +7,7 @@ const Memories = () => {
         <Fragment>
             <div id="mb-96">
                 <div className="relative top-20 z-[10]   w-full lg:pl-10 px-2 lg:px-0">
-                    <h2 className="lg:ml-container text-5xl pb-10 uppercase font-primary">
+                    <h2 className="pb-10 text-5xl uppercase lg:ml-container font-primary">
                         some memories
                     </h2>
                     <div className="">
