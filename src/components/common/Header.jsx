@@ -16,7 +16,7 @@ const Header = ({ navbar }) => {
                     : "fixed top-0 left-0 z-50 w-full bg-white text-header3"
             )}
         >
-            <div className="container items-center justify-between py-4 mx-auto lg:flex lg:px-10 px-7">
+            <div className="container items-center justify-between py-4 mx-auto lg:flex lg:px-10 px-7 2xl:px-0">
                 <div className="font-bold text-2xl cursor-pointer flex items-center font-[Poppins] text-gray-800 ">
                     <Link to="/" className="w-3/6">
                         <img
@@ -40,7 +40,7 @@ const Header = ({ navbar }) => {
                     {HEADER_NAV_LINKS.map((link) => (
                         <li
                             key={link.key}
-                            className={`${navbar ? "" : ""}text-sm font-medium   lg:ml-5  lg:my-0 my-7 font-secondary `}
+                            className={`${navbar ? "" : ""}text-sm font-medium   lg:ml-3 2xl:ml-5 lg:my-0 my-7 font-secondary`}
                         >
                             <Link
                                 to={link.path}

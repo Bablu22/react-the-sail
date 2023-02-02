@@ -29,7 +29,7 @@ const Footer = () => {
             </div>
             <hr className="max-w-full mx-0" />
             <div className="max-w-4xl py-10 mx-auto text-white">
-                <div className="grid items-center justify-center w-full grid-flow-row grid-cols-2 gap-2 mx-auto md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 place-items-center ">
+                <div className="grid items-center justify-center w-full grid-flow-row grid-cols-2 gap-2 mx-auto md:grid-cols-2 lg:grid-cols-4 place-items-center ">
                     <img src={image1} alt="" className="w-20" />
                     <img src={image2} alt="" className="w-20" />
                     <img src={image3} alt="" className="w-20" />
